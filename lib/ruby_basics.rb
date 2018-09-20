@@ -11,7 +11,7 @@ def argue
 end
 
 def greeting(greeting = "Hi there, ", name = "Bobby!")
-  return #{greeting} + #{name}
+  return #{greeting} + #{name};
 end 
 
 def return_a_value
