@@ -12,9 +12,10 @@ end
 
 def greeting(greeting = "Hi there, ", name = "Bobby!")
   puts #{greeting} + #{name}
+  return greeting(greeting)
 end 
 
-def return_a_value(phrase)
+def return_a_value(phrase = "Nice")
   puts phrase
 end
 
